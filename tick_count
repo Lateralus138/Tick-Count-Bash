@@ -33,9 +33,9 @@ function tick_count(){
                         and \$start_tick      
         -h, --help      This help message & return
 
- Example: Benchmark listing files recursively
+ Example: Benchmark counting files recursively
         -       tick_count -s   # start count
-                find . -type f  # run command
+                sudo find . -type f | wc -l  # run command
                 tick_count -t   # stop count
                 tick_count -d   # echo difference
 
