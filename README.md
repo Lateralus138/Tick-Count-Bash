@@ -1,6 +1,7 @@
 # Tick Count Bash
 
-<style>
+![Bash Function](./images/bf_b.png) ![Bash WorkFlow](./images/bw_b.png) ![Linux Shell](./images/ls_b.png)
+<!-- <style>
 :root {
     --white: #EFEFEF;
     --black: #1F1F1F;
@@ -62,7 +63,7 @@
     <div class="right b">Shell</div>
 </div>
 
-<br><br>
+<br><br> -->
 
 A Bash function to time/benchmark other shell commands/functions/scripts.
 
