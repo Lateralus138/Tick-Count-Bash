@@ -1,5 +1,69 @@
 # Tick Count Bash
 
+<style>
+:root {
+    --white: #EFEFEF;
+    --black: #1F1F1F;
+    --blue: #2D89EF;
+    --maroon: #7E3878;
+    --purple: #603CBA;
+}
+.git-button {
+    display: inline;
+}
+.git-button .p {
+    background-color: var(--purple);
+}
+.git-button .m {
+    background-color: var(--maroon);
+}
+.git-button .b {
+    background-color: var(--blue);
+}
+.git-button .left {
+    line-height: 20px;
+    padding: 0 8px;
+    float: left;
+    margin: 0 0 0 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: var(--black);
+    color: #EFEFEF;
+}
+.git-button .right {
+    line-height: 20px;
+    padding: 0 8px;
+    float: left;
+    margin: 0 8px 0 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #EFEFEF;
+}
+</style>
+
+<div class="git-button">
+    <div class="left">Bash</div>
+    <div class="right p">Functions</div>
+</div>
+
+<div class="git-button">
+    <div class="left">Bash</div>
+    <div class="right m">WorkFlow</div>
+</div>
+
+<div class="git-button">
+    <div class="left">Linux</div>
+    <div class="right b">Shell</div>
+</div>
+
+<br><br>
+
 A Bash function to time/benchmark other shell commands/functions/scripts.
 
 ## Installation
